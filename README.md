@@ -1,4 +1,15 @@
 # PWA Text Editor
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents\
+* [Description](#description)
+* [Installation](#installation)
+* [Technologies Used](#technologies-used)
+* [Live Application](#live-application)
+* [Usage](#usage)
+* [Features](#features)
+* [Credits](#credits)
+* [License](#license)
 
 ## Description
 
@@ -13,6 +24,22 @@ To install the PWA Text Editor, follow these steps:
 3. Ensure you have Node.js and npm installed on your machine.
 4. Run `npm run start` from the root directory to start the application.
 
+## Technologies Used
+
+This application is powered by Webpack (HTML-Webpack-Plugin, Babel, and CSS Loader), Node.js (v16.19.1), Express.js (v.14.17.1), and JavaScript. Nodemon (v2.0.4) and Concurrently (v5.2.0) were utilized as a devDependencies allowing the server to refresh when edits were made to application, and allowing both the front end and back end to be ran on a single command (npm run start:dev).
+
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
+
+## Live Application
+
+[PWA Text Editor](https://young-brushlands-65623-5b006d80757b.herokuapp.com)
+
 ## Usage
 
 After installation, open your browser and navigate to the application's URL. You will be presented with a text editor interface where you can:
@@ -23,24 +50,17 @@ After installation, open your browser and navigate to the application's URL. You
 
 Navigate through the editor to manage your notes and snippets efficiently.
 
-## Credits
-
-Developed by Leighton Van Ness.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.txt).
-
----
-
 ## Features
 
 - Offline functionality for creating and editing text content
 - Data persistence using IndexedDB
 - Progressive Web Application (PWA) capabilities for reliability and accessibility
 
-## How to Contribute
+## Credits
 
-Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+Developed by Leighton Van Ness with starter code from Columbia EDx Bootcamp
 
-If you find any bugs or issues, please report them [here](https://github.com/lvanness7690/pwa-text-editor/issues).
+## License
+
+Please refer to the license in the repo.
+
